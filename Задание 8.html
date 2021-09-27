@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 8</title>
+</head>
+<body>
+ <h2>Запись на курсы</h2>
+<hr>
+<form action="someaction.php" method="post">
+    <p class="paragraph" id="name-input-paragraph">
+        Имя:<br>
+        <input type="text" placeholder="Введите имя" name="person_name">
+    </p>
+    <p class="paragraph" id="lang-select-paragraph"> Язык программирования:<br>
+        <label><input type="radio" name="language" value="lang_select_cpp"> C++</label><br>
+        <label><input type="radio" name="language" value="lang_select_php"> PHP </label><br>
+        <label><input type="radio" name="language" value="lang_select_java"> Java </label>
+    </p>
+    <p class="paragraph" id="experience-info-paragraph"> Дополнительная информация:<br>
+        <textarea placeholder="Есть опыт программирования на Java" cols="50" rows="4" name="experience_inf"></textarea>
+    </p>
+    <p class="paragraph" id="form-bottom-button-paragraph">Секретное слово:<br>
+        <input type="password" placeholder="Введите пароль" name="password"><br>
+        <button type="submit" name="submit_form_button" value="submit">Отправить</button>
+        <button type="reset" name="reset_form_button" value="reset">Очистить</button>
+    </p>
+</form>
+<hr>
+<footer>
+    <p><em>www.bsuir.by</em></p>
+</footer>
+</body>
+</html>
